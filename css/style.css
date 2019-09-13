@@ -1,7 +1,5 @@
 .banner {
-    padding-top:140px;
     height:100vh;
-    min-height:400px;
     background-size:cover;
     background-image:url('../img/bg.jpg');
 }
@@ -19,6 +17,10 @@
 .overlay-dark h6,
 .overlay-dark span {
     color: #fff;
+}
+
+.overlay-dark {
+    position: relative;
 }
 
 .overlay-dark::before {
